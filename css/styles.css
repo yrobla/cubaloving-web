@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {position:relative; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+
+body {margin:0; background:white; font-family: 'Roboto', sans-serif; color:#111; font-size:16px; line-height:24px;}
+
+.wrap {width:800px; margin: 0 auto;}
+
+.logo {width:100%; text-align:center; padding: 130px 0 0 0;}
+
+.logo img {margin: 0 0 20px 0; width:100%; height:auto; max-width: 300px;}
+
+.slogan {text-align:center; font-size: 32px; line-height:38px; color:#24388D;}
+
+.slogan span {color:red; font-weight:bold;}
+
+.download {text-align:center; padding: 100px 0;}
+
+.download span {font-weight:bold; display:block; font-size:24px;}
+
+.overflow {overflow:hidden;}
+
+.download div a {display:inline-block; width: 300px; margin: 30px 15px;}
+
+.download div a img {width:100%; height:auto; -webkit-transition: all 0.3s ease-out;
+transition: all 0.3s ease-out;}
+
+.download div a:hover img {opacity: 0.8;
+filter: alpha(opacity=80);}
+
+.menu {width:100%;}
+
+.menu ul {list-syle:none; margin:0; padding:0; text-align:center;}
+
+.menu li {display:inline-block; padding: 0;}
+
+.menu li:before {content:"|"; }
+
+.menu li:first-child:before {content:"";}
+
+.menu li a {display:inline-block; padding: 0 10px; text-decoration:none; font-weight:bold; font-size:18px; color:#24388D;}
+
+.menu li a:hover {color:#C72D02;}
+
+.menu p {display:block; text-align:center; padding: 15px 0;}
+
+.langs {position:absolute; top: 30px; right:0; z-index:10;}
+
+.langs a {display:inline-block; width: 30px; height:30px; line-height:30px; text-align:center; border: 1px solid #ccc; color:#ccc; text-decoration:none; font-size:13px; margin: 0 3px; -webkit-transition: all 0.3s ease-out;
+transition: all 0.3s ease-out;}
+
+a {color: #24388D;}
+
+.langs a:hover,
+.langs a.active {border: 1px solid #24388D; background: #24388D; color:#fff;}
+
+.content {display:block; text-align:left; padding: 100px 0;}
+
+h1 {display:block; text-align:center;}
+
+
+
+@media (max-width: 850px) {
+    .wrap {width:90%; }
+	.download div a { width: 40%; margin: 30px 2.5%;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
